@@ -36,7 +36,7 @@
         </tr>
         <tr>
           <th>Hair</th>
-          <td>Blondish-Brown</td>
+          <td>light-Brown</td>
         </tr>
       </table>
     </section>
@@ -60,6 +60,7 @@
         <img src="images/photo3.jpg" alt="Photo 3">
         <img src="images/photo4.jpg" alt="Photo 4">
         <img src="images/photo4.jpg" alt="Photo 5">
+        <img src="images/photo5.jpg" alt="Photo 6">
       </div>
     </section>
 
