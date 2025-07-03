@@ -79,4 +79,9 @@
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #0000;
+nav a {
+  text-decoration: none;
+  color: #f8f8;
+  font-weight: bold;
+
 </html>
