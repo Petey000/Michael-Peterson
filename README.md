@@ -46,7 +46,8 @@
       <ul>
         <li>Sports</li>
         <li>Traveling</li>
-        <li>Fitness</li>
+        <li>Lifting</li>
+        <li>Camping</li>
         <li>Outdoors</li>
       </ul>
     </section>
@@ -58,6 +59,7 @@
         <img src="images/photo2.jpg" alt="Photo 2">
         <img src="images/photo3.jpg" alt="Photo 3">
         <img src="images/photo4.jpg" alt="Photo 4">
+        <img src="images/photo4.jpg" alt="Photo 5">
       </div>
     </section>
 
