@@ -9,14 +9,7 @@
 <body>
 
   <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#stats">Stats</a></li>
-        <li><a href="#hobbies">Hobbies</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  
     </nav>
     <div class="hero">
       <h1>Your Name</h1>
