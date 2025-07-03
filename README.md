@@ -72,8 +72,11 @@
   </main>
 
   <footer>
-    <p>© 2025 Your Name. All rights reserved.</p>
+    <p>© 2025 Micahel Peterson. All rights reserved.</p>
   </footer>
 
-</body>
+</body> body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #0000;
 </html>
