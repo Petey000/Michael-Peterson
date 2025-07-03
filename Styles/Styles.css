@@ -68,3 +68,12 @@ body {
 body {
   color: white;
 }
+/* All borders white */
+.my-element {
+  border: 1px solid white;
+}
+
+/* Only top border white */
+.my-element {
+  border-top: 2px solid white;
+}
