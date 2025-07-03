@@ -10,7 +10,6 @@
       </ul>
     </nav>
     <div class="hero">
-      <h1>Your Name</h1>
       <p>Professional Model</p>
     </div>
   </header>
