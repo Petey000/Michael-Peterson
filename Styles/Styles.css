@@ -15,7 +15,7 @@ body {
 /* Header and navigation */
 
 header {
-  background: #f8f8f8;
+  background: #00000;
   padding: 20px 0;
 }
 
@@ -31,7 +31,7 @@ nav li + li {
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: #f8f8;
   font-weight: bold;
 }
 
