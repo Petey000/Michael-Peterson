@@ -74,6 +74,3 @@
   <footer>
     <p>© 2025 Micahel Peterson. All rights reserved.</p>
   </footer>
-
-</body> 
-</html>
