@@ -9,7 +9,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #0000;
 }
 
 /* Header and navigation */
@@ -31,7 +31,7 @@ nav li + li {
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: #f8f8f8;
   font-weight: bold;
 }
 
