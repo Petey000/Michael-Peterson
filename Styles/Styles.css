@@ -30,6 +30,8 @@ nav li + li {
 }
 body {
     background-color: black;
+    color: white;
+}
 }
 nav a {
   text-decoration: none;
