@@ -1,8 +1,201 @@
-
-<body style="background-color: black; color: white;">
-  <!-- Your content here -->
-  # Michael Peterson
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Michael Peterson Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --main-bg: #111111;
+      --main-fg: #ffffff;
+      --border: #ffffff;
+      --accent: #1e90ff;
+      --card-bg: #181818;
+      --hover-bg: #222222;
+      --radius: 16px;
+      --transition: 0.2s cubic-bezier(.4,0,.2,1);
+      --gap: 3rem;
+      --shadow: 0 4px 16px 0 rgba(0,0,0,0.25);
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background: var(--main-bg);
+      color: var(--main-fg);
+      font-family: 'Montserrat', Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      border-bottom: 2px solid var(--border);
+      padding: 0 0 1rem 0;
+    }
+    .hero {
+      text-align: center;
+      padding: 2.5rem 1rem 0.5rem 1rem;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      margin: 0;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      list-style: none;
+      margin: 0;
+      padding: 0.75rem 0;
+      border-radius: var(--radius) var(--radius) 0 0;
+      background: var(--card-bg);
+      border: 1.5px solid var(--border);
+      border-bottom: none;
+      box-shadow: var(--shadow);
+      margin-top: 1rem;
+    }
+    nav ul li a {
+      color: var(--main-fg);
+      text-decoration: none;
+      font-weight: 500;
+      padding: 0.5rem 1.2rem;
+      border-radius: 8px;
+      border: 1.5px solid transparent;
+      transition: background var(--transition), color var(--transition), border-color var(--transition);
+    }
+    nav ul li a:hover, nav ul li a:focus {
+      background: var(--main-fg);
+      color: var(--main-bg);
+      border-color: var(--accent);
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100vw;
+      gap: var(--gap);
+      padding: 2.5rem 0 2rem 0;
+    }
+    section {
+      width: min(700px, 90vw);
+      background: var(--card-bg);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      margin-bottom: 1.7rem;
+      padding: 2.2rem 2.5rem 1.5rem 2.5rem;
+    }
+    section:not(:last-child) {
+      margin-bottom: 2.2rem;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      border-bottom: 1.5px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.2rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin-top: 0.5rem;
+    }
+    th, td {
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.2rem;
+      text-align: left;
+    }
+    th {
+      font-weight: 600;
+      background: var(--hover-bg);
+      border-right: 1px solid var(--border);
+    }
+    td {
+      font-weight: 400;
+    }
+    tr:last-child th, tr:last-child td {
+      border-bottom: none;
+    }
+    ul {
+      padding-left: 1.2rem;
+      margin: 0.8rem 0;
+    }
+    ul li {
+      margin-bottom: 0.6rem;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1.2rem;
+      margin: 1.5rem 0;
+    }
+    .gallery-grid img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2.5px solid var(--border);
+      background: #222;
+      box-shadow: var(--shadow);
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+    .gallery-grid img:hover {
+      transform: scale(1.038);
+      box-shadow: 0 8px 32px 0 rgba(0,0,0,0.35);
+      border-color: var(--accent);
+    }
+    #contact p {
+      margin: 0.8rem 0;
+      border-left: 2px solid var(--border);
+      padding-left: 1.2rem;
+      font-size: 1.1rem;
+      word-break: break-all;
+    }
+    footer {
+      width: 100vw;
+      border-top: 2px solid var(--border);
+      padding: 1.2rem 0;
+      background: var(--card-bg);
+      color: var(--main-fg);
+      text-align: center;
+      font-size: 1.1rem;
+      letter-spacing: 0.05em;
+      margin-top: 2rem;
+    }
+    /* Responsive */
+    @media (max-width: 700px) {
+      nav ul {
+        gap: 0.7rem;
+        padding: 0.4rem 0;
+      }
+      main {
+        padding: 1rem 0;
+      }
+      section {
+        padding: 1.1rem 0.7rem 1rem 0.7rem;
+      }
+      h2 {
+        font-size: 1.35rem;
+      }
+      .gallery-grid img {
+        height: 135px;
+      }
+    }
+  </style>
+</head>
+<body>
   <header>
+    <div class="hero">
+      <h1>Michael Peterson</h1>
+    </div>
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
@@ -12,10 +205,7 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <div class="hero">
-    </div>
   </header>
-
   <main>
     <section id="about">
       <h2>About Me</h2>
@@ -62,18 +252,19 @@
         <img src="images/photo2.jpg" alt="Photo 2">
         <img src="images/photo3.jpg" alt="Photo 3">
         <img src="images/photo4.jpg" alt="Photo 4">
-        <img src="images/photo4.jpg" alt="Photo 5">
+        <img src="images/photo5.jpg" alt="Photo 5">
       </div>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email:Michael.James.Peterson24@gmail.com</p>
+      <p>Email: Michael.James.Peterson24@gmail.com</p>
       <p>Phone: (224) 413-1069</p>
       <p>Instagram: @24michael__</p>
     </section>
   </main>
-
   <footer>
-    <p>© 2025 Micahel Peterson. All rights reserved.</p>
+    <p>© 2025 Michael Peterson. All rights reserved.</p>
   </footer>
+</body>
+</html>
