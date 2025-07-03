@@ -35,7 +35,7 @@
       <table>
         <tr>
           <th>Height</th>
-          <td>6 ft 1 in / 185 cm</td>
+          <td>6 ft 3 in / 190 cm</td>
         </tr>
         <tr>
           <th>Weight</th>
@@ -47,7 +47,7 @@
         </tr>
         <tr>
           <th>Hair</th>
-          <td>Brown</td>
+          <td>Light-Brown</td>
         </tr>
       </table>
     </section>
@@ -55,10 +55,11 @@
     <section id="hobbies">
       <h2>Hobbies & Interests</h2>
       <ul>
-        <li>Photography</li>
-        <li>Traveling</li>
-        <li>Fitness & Yoga</li>
-        <li>Cooking</li>
+        <li>Baseball</li>
+        <li>Hiking</li>
+        <li>Fitness</li>
+        <li>Outdoors</li>
+        <li>Travelling</li>
       </ul>
     </section>
 
@@ -74,9 +75,9 @@
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: your.email@example.com</p>
-      <p>Phone: (123) 456-7890</p>
-      <p>Instagram: @yourhandle</p>
+      <p>Email: Michael.James.Peterson24.com</p>
+      <p>Phone: (224) 413-1069</p>
+      <p>Instagram: @24michael__</p>
     </section>
   </main>
 
