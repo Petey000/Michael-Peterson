@@ -10,14 +10,13 @@
       </ul>
     </nav>
     <div class="hero">
-      <p>Professional Model</p>
     </div>
   </header>
 
   <main>
     <section id="about">
       <h2>About Me</h2>
-      <p>Write a short bio here. Talk about your background, experience, and what makes you unique.</p>
+      <p>New up-and-coming model. Passionate about fashion and fitness.</p>
     </section>
 
     <section id="stats">
