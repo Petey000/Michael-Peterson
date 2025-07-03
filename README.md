@@ -69,14 +69,6 @@
       <p>Phone: (224) 413-1069</p>
       <p>Instagram: @24michael__</p>
     </section>
-    body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #0000;
-nav a {
-  text-decoration: none;
-  color: #f8f8;
-  font-weight: bold;
   </main>
 
   <footer>
